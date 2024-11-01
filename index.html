@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/fotoamanda.jpg" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu me chamo Amanda</p>
+        <h1>Eu sou estudante</h1>
+        <p>Sou estudante e estudo no Colégio Etdual Civico Militar Basílio de Lucca, 
+            atualmente estou cursando o 2º ano do Enino Médio, tenho aulas pelo curso do Alura. </p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto1.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Alura Plus</h5>
+                        <p class="card-text">  O site "Site-plus" foi criado com a ajuda da Alura para informar os 
+                            usuários sobre os planos de assinatura disponíveis. Ele apresenta detalhes sobre cada opção, 
+                            ajudando na escolha mais adequada para o aprendizado. O design é simples e moderno, com cores
+                             que tornam a navegação fácil e agradável.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto2.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Loja de Bolsas</h5>
+                        <p class="card-text">Inspirado nas instruções da plataforma Alura. O site foi montado através de 
+                            planejamento, design e desenvolvimento, mantendo a estrutura original, mas com diferenças nas 
+                            cores, textos e imagens. Ele apresenta um catálogo de produtos com informações detalhadas, 
+                            facilitando a escolha dos clientes.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto3.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Site de Perguntas</h5>
+                        <p class="card-text">O projeto amanda-3-tri é um site de perguntas e respostas que ajuda os 
+                            usuários a estudarem diferentes matérias. Inspirado na plataforma Alura, o site foi planejado 
+                            para ser fácil de usar, com informações claras e um sistema de busca eficiente. Além disso, 
+                            ele é responsivo, se adaptando a diferentes dispositivos para que os estudantes possam acessar
+                             o conteúdo a qualquer hora.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Alura Plus</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <p>  O site foi desenvolvido com o objetivo de informar os usuários sobre os planos de assinatura 
+                        da plataforma Alura. Nele, é possível encontrar detalhes sobre as diferentes opções de assinatura 
+                        disponíveis, ajudando cada um a escolher a que melhor se adapta às suas necessidades de 
+                        aprendizado.</p>
+                    <p>Essa abordagem prática facilita a tomada de decisão para quem deseja aproveitar ao máximo os 
+                        recursos oferecidos pela plataforma. O design do site é simples e moderno, utilizando uma 
+                        paleta de cores que favorece a leitura e a navegação. A ideia é criar uma experiência 
+                        agradável para o usuário, com informações facilmente acessíveis. Os estilos CSS aplicados 
+                        contribuem para uma aparência organizada e limpa, permitindo que os visitantes se concentrem 
+                        no conteúdo relevante sem distrações.</p>
+                    <p>No geral, o site reflete a intenção de proporcionar uma experiência informativa e 
+                        acessível aos usuários interessados nos planos de assinatura da Alura.  </p>
+                    
+                    <img src="img/projeto1.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://amanda-2008.github.io/Alura-plus/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/amanda-2008/Site-plus">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Loja de bolsas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>A montagem do site foi inspirado em um projeto da plataforma Alura, 
+                        que ensina passo a passo como fazer sites. foi criado um visual bonito e fácil de usar. O layout 
+                        foi pensado para que as pessoas pudessem navegar sem dificuldade e encontrar o que precisam. As 
+                        principais diferenças entre o projeto da Alura e o resultado final estão 
+                        nas cores, textos e imagens. A estrutura do site praticamente não mudou, mas o design foi 
+                        ajustado para refletir a identidade da loja de bolsas. 
+                    </p>
+                    <p>Ele é responsivo, garantindo uma boa experiência em diferentes dispositivos, e oferece um
+                         catálogo de produtos com informações detalhadas, facilitando a escolha dos clientes.</p>
+
+                    <p>A "Amanda Bolsas" é mais do que um site comum; é um projeto que combina funcionalidade e um bom 
+                        design para oferecer uma experiência legal para quem procura bolsas. Inspirado nas aulas da 
+                        Alura, o projeto mostra a importância de aprender e praticar para criar soluções legais e úteis 
+                        para a venda de produtos online.</p>
+                    
+                    <img src="img/projeto2.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://amanda-2008.github.io/amandabolsas/">Ver projeto ao
+                        vivo</a>
+                    <a href="https://github.com/amanda-2008/amandabolsas">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Site de perguntas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto perguntas é um site de flashcards que ajuda os usuários a estudarem 
+                        diferentes matérias. Ele foi inspirado em um projeto da plataforma Alura, com a intenção de 
+                        criar um espaço onde as pessoas possam tirar dúvidas e aprender mais sobre vários temas.</p>
+                    <p>A montagem do site começou com um bom planejamento. Primeiro, foram escolhidas as áreas de estudo 
+                        que o site abordaria, o que ajudou a organizar as perguntas e respostas. Com uma interface que 
+                        fosse fácil de usar e bonita. O layout foi pensado para 
+                        que os visitantes consigam navegar sem dificuldades e encontrem as informações que precisam rapidamente.</p>
+                    <p>A experiência do usuário foi muito importante durante todo o desenvolvimento. A interface foi 
+                        criada para ser amigável, permitindo que os usuários façam perguntas e encontrem respostas de 
+                        forma simples. As informações são apresentadas de maneira clara, e há um sistema de busca que 
+                        ajuda a localizar tópicos específicos. Isso faz com que o site seja um ambiente mais agradável 
+                        para aprender.</p>
+
+                    <p>Além disso, o site é responsivo, o que significa que ele se adapta a diferentes tamanhos de tela, 
+                        como celulares, tablets e computadores. Isso garante que os usuários tenham uma boa experiência, 
+                        não importa o dispositivo que estejam usando. Com essa adaptação, o site se torna ainda 
+                        mais acessível, permitindo que os estudantes acessem o conteúdo a qualquer hora e em qualquer 
+                        lugar.</p>
+                    <img src="img/projeto3.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/amanda-2008/amanda-3-tri/deployments/github-pages">Ver projeto ao vivo</a>
+                    <a href="https://github.com/amanda-2008/amanda-3-tri">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/amanda-2008">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Amanda Pauletti,</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
